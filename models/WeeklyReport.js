@@ -52,6 +52,14 @@ const weeklyReportSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  weekStartDate:{
+    type: Date,
+    required: true,
+  },
+  weekEndDate:{
+    type: Date,
+    required: true,
+  },
 });
 
 const WeeklyReport = mongoose.model("WeeklyReport", weeklyReportSchema);

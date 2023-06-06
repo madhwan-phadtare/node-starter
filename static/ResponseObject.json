@@ -1,0 +1,85 @@
+{
+    "status": "success",
+    "message": "success",
+    "data": {
+      "name": "dumy",
+      "grade": "Always Target",
+      "weeks": [
+        {
+          "weekId": "1",
+          "startingDate": "2023-05-01",
+          "endingDate": "2023-05-07",
+          "mentorFeedback": [
+            "Good Knowledge with Technical skills",
+            "Need to improve little coding skills"
+          ],
+          "timeManagement": "4",
+          "overallAssessment": "79",
+          "communicationSkill": "4",
+          "attendanceParticipation": "4",
+          "assignment": "7"
+        },
+        {
+          "weekId": "2",
+          "startingDate": "2023-05-08",
+          "endingDate": "2023-05-14",
+          "mentorFeedback": [
+            "Improvement in assignments required",
+            "Good time management"
+          ],
+          "timeManagement": "4",
+          "overallAssessment": "80",
+          "communicationSkill": "4",
+          "attendanceParticipation": "3",
+          "assignment": "8"
+        },
+        {
+          "weekId": "3",
+          "startingDate": "2023-05-15",
+          "endingDate": "2023-05-21",
+          "mentorFeedback": [
+            "Excellent performance overall"
+          ],
+          "timeManagement": "3",
+          "overallAssessment": "85",
+          "communicationSkill": "4",
+          "attendanceParticipation": "4",
+          "assignment": "9"
+        },
+        {
+          "weekId": "4",
+          "startingDate": "2023-05-22",
+          "endingDate": "2023-05-28",
+          "mentorFeedback": [],
+          "timeManagement": "4",
+          "overallAssessment": "87",
+          "communicationSkill": "3",
+          "attendanceParticipation": "4",
+          "assignment": "7"
+        },
+        {
+          "weekId": "5",
+          "startingDate": "2023-05-29",
+          "endingDate": "2023-06-04",
+          "mentorFeedback": [
+            "Good effort",
+            "More focus on assignments needed",
+            "Impressive progress",
+            "Work on improving communication"
+          ],
+          "timeManagement": "3",
+          "overallAssessment": "82",
+          "communicationSkill": "3",
+          "attendanceParticipation": "3",
+          "assignment": "6"
+        }
+      ],
+      "emailId": "dumy@quantiphi.com",
+      "assessment": "3.31",
+      "averageScore": "3.39",
+      "mockProject": "3.125",
+      "timeManagement": "3.31",
+      "communicationSkill": "4",
+      "attendanceParticipation": "3.31"
+    }
+  }

@@ -5,7 +5,7 @@ const fs = require("fs");
 // Create a function to insert the dummy data
 async function insertDummyData() {
   try {
-    let rawData = fs.readFileSync("dumyDataProject.json");
+    let rawData = fs.readFileSync("DummyDataMockProject.json");
     const data = JSON.parse(rawData);
 
     // Insert the dummy data into the database

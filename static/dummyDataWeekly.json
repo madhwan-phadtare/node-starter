@@ -11,7 +11,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -25,7 +27,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -39,7 +43,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -53,7 +59,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -67,7 +75,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -81,7 +91,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -95,7 +107,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -109,7 +123,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Madhwan",
@@ -123,7 +139,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Shivam",
@@ -137,7 +155,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Shivam",
@@ -151,7 +171,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Shivam",
@@ -165,7 +187,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Shivam",
@@ -179,7 +203,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Shivam",
@@ -193,7 +219,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Shivam",
@@ -207,7 +235,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Shivam",
@@ -221,7 +251,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Shivam",
@@ -235,7 +267,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Shivam",
@@ -249,7 +283,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Harsh",
@@ -263,7 +299,9 @@
     "performanceInAssignment": 7,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Harsh",
@@ -277,7 +315,9 @@
     "performanceInAssignment": 6,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Harsh",
@@ -291,7 +331,9 @@
     "performanceInAssignment": 8,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Harsh",
@@ -305,7 +347,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Harsh",
@@ -319,7 +363,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Harsh",
@@ -333,7 +379,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Harsh",
@@ -347,7 +395,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Harsh",
@@ -361,7 +411,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Harsh",
@@ -375,7 +427,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Ayush",
@@ -389,7 +443,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Ayush",
@@ -403,7 +459,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Ayush",
@@ -417,7 +475,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Ayush",
@@ -431,7 +491,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Ayush",
@@ -445,7 +507,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Ayush",
@@ -459,7 +523,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Ayush",
@@ -473,7 +539,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Ayush",
@@ -487,7 +555,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Ayush",
@@ -501,7 +571,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Aman",
@@ -515,7 +587,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Aman",
@@ -529,7 +603,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep up the effort!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Aman",
@@ -543,7 +619,9 @@
     "performanceInAssignment": 9,
     "remarks": "Impressive work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Aman",
@@ -557,7 +635,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep improving!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Aman",
@@ -571,7 +651,9 @@
     "performanceInAssignment": 5,
     "remarks": "Put more effort!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Aman",
@@ -585,7 +667,9 @@
     "performanceInAssignment": 7,
     "remarks": "Making progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Aman",
@@ -599,7 +683,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Aman",
@@ -613,7 +699,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good effort!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Aman",
@@ -627,7 +715,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep pushing!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Nandam",
@@ -641,7 +731,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Nandam",
@@ -655,7 +747,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Nandam",
@@ -669,7 +763,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Nandam",
@@ -683,7 +779,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Nandam",
@@ -697,7 +795,9 @@
     "performanceInAssignment": 6,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Nandam",
@@ -711,7 +811,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Nandam",
@@ -725,7 +827,9 @@
     "performanceInAssignment": 9,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Nandam",
@@ -739,7 +843,9 @@
     "performanceInAssignment": 8,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Nandam",
@@ -753,7 +859,9 @@
     "performanceInAssignment": 7,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Mahi",
@@ -767,7 +875,9 @@
     "performanceInAssignment": 9,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Mahi",
@@ -781,7 +891,9 @@
     "performanceInAssignment": 8,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Mahi",
@@ -795,7 +907,9 @@
     "performanceInAssignment": 10,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Mahi",
@@ -809,7 +923,9 @@
     "performanceInAssignment": 7,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Mahi",
@@ -823,7 +939,9 @@
     "performanceInAssignment": 6,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Mahi",
@@ -837,7 +955,9 @@
     "performanceInAssignment": 7,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Mahi",
@@ -851,7 +971,9 @@
     "performanceInAssignment": 8,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Mahi",
@@ -865,7 +987,9 @@
     "performanceInAssignment": 9,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Mahi",
@@ -879,7 +1003,9 @@
     "performanceInAssignment": 8,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Merylin",
@@ -893,7 +1019,9 @@
     "performanceInAssignment": 9.1,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Merylin",
@@ -907,7 +1035,9 @@
     "performanceInAssignment": 6.9,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Merylin",
@@ -921,7 +1051,9 @@
     "performanceInAssignment": 9.4,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 1
+    "weekNumber": 1,
+    "weekStartDate": "03/20/2023",
+    "weekEndDate": "03/26/2023"
   },
   {
     "menteeName": "Merylin",
@@ -935,7 +1067,9 @@
     "performanceInAssignment": 7.5,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Merylin",
@@ -949,7 +1083,9 @@
     "performanceInAssignment": 6.4,
     "remarks": "Keep working on it!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Merylin",
@@ -963,7 +1099,9 @@
     "performanceInAssignment": 8.3,
     "remarks": "Great progress!",
     "type": "weeklyscore",
-    "weekNumber": 2
+    "weekNumber": 2,
+    "weekStartDate": "03/27/2023",
+    "weekEndDate": "04/2/2023"
   },
   {
     "menteeName": "Merylin",
@@ -977,7 +1115,9 @@
     "performanceInAssignment": 9.2,
     "remarks": "Excellent work!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Merylin",
@@ -991,7 +1131,9 @@
     "performanceInAssignment": 7.8,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   },
   {
     "menteeName": "Merylin",
@@ -1005,6 +1147,8 @@
     "performanceInAssignment": 7.2,
     "remarks": "Good job!",
     "type": "weeklyscore",
-    "weekNumber": 3
+    "weekNumber": 3,
+    "weekStartDate": "04/3/2023",
+    "weekEndDate": "04/9/2023"
   }
 ]

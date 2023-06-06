@@ -1,8 +1,7 @@
 const express = require("express");
-// const ProjectReport = require("./models/ProjectReport");
+const ProjectReport = require("./models/ProjectReport");
 const WeeklyReports = require("./models/WeeklyReport");
-// const {connectToDatabase} = require("./db/mongoDb");
-const WeeklyReport = require("./models/WeeklyReport");
+const {connectToDatabase} = require("./db/mongoDb");
 
 const app = express();
 const port = 3000;
@@ -22,6 +21,7 @@ async function fetchProjectReports(emailId) {
 
 app.get("/report/:id", async (req, res) => {
   const userId = req.params.id;
+  console.log(userId);
   try {
     const { projectReports, weeklyReports } = await fetchProjectReports(userId);
 
@@ -54,12 +54,12 @@ app.get("/report/:id", async (req, res) => {
   }
 });
 
-// connectToDatabase()
-//   .then(() => {
-//     app.listen(port, () => {
-//       console.log(`Server listening on port ${port}`);
-//     });
-//   })
-//   .catch((error) => {
-//     console.error("Error connecting to the database:", error);
-//   });
+connectToDatabase()
+  .then(() => {
+    app.listen(port, () => {
+      console.log(`Server listening on port ${port}`);
+    });
+  })
+  .catch((error) => {
+    console.error("Error connecting to the database:", error);
+  });
