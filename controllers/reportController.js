@@ -64,11 +64,11 @@ function calculateWeeklyReports(weeklyReports) {
 
     singleWeekTotalReports.weekId = key;
     singleWeekTotalReports.mentorFeedbacks = mentorFeedbacks;
-    singleWeekTotalReports.timeManagement = timeManagement;
-    singleWeekTotalReports.overallAssessment = overallAssessment;
-    singleWeekTotalReports.communicationSkill = communicationSkill;
-    singleWeekTotalReports.attendanceParticipation = attendanceParticipation;
-    singleWeekTotalReports.assignment = assignment;
+    singleWeekTotalReports.timeManagement = Math.round(timeManagement*100)/100;
+    singleWeekTotalReports.overallAssessment = Math.round(overallAssessment*100)/100;
+    singleWeekTotalReports.communicationSkill = Math.round(communicationSkill*100)/100;
+    singleWeekTotalReports.attendanceParticipation = Math.round(attendanceParticipation*100)/100;
+    singleWeekTotalReports.assignment = Math.round(assignment*100)/100;
     singleWeekTotalReports.startingDate = oneWeekReports[0].weekStartDate;
     singleWeekTotalReports.endingDate = oneWeekReports[0].weekEndDate;
 
@@ -123,6 +123,8 @@ function getScoreDescription(score) {
   }
 }
 
+
+
 /**
  * Calculate final reports
  * @param {Array} projectReports - Array of project reports
@@ -142,7 +144,7 @@ function calculateFinalReports(projectReports, weeklyReports) {
     attendanceParticipation: 0,
     communicationSkill: 0,
     timeManagement: 0,
-    mockProject: calculateMockProject(projectReports),
+    mockProject: Math.round(calculateMockProject(projectReports)*100)/100,
     averageScore: 0,
     assessment: 0,
     weeks: calculateWeeklyReports(weeklyReports),
@@ -160,6 +162,11 @@ function calculateFinalReports(projectReports, weeklyReports) {
   data.timeManagement /= data.weeks.length;
   data.assessment /= data.weeks.length * 25;
 
+  data.communicationSkill = Math.round(data.communicationSkill * 100)/100;
+  data.attendanceParticipation = Math.round(data.attendanceParticipation * 100)/100;
+  data.timeManagement = Math.round(data.timeManagement * 100)/100;
+  data.assessment = Math.round(data.assessment * 100)/100;
+
   data.averageScore =
     data.communicationSkill +
     data.attendanceParticipation +
@@ -168,9 +175,13 @@ function calculateFinalReports(projectReports, weeklyReports) {
     data.timeManagement;
   data.averageScore /= 5;
 
+  data.averageScore = Math.round(data.averageScore*100)/100;
+
   data.grade = getScoreDescription(data.averageScore);
 
   finalReports.data = data;
+;
+
   return finalReports;
 }
 
