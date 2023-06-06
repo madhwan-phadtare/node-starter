@@ -1,7 +1,8 @@
 const mongoose = require("mongoose");
+require("dotenv").config();
 
-const mongoURI =
-  "mongodb+srv://madhwanphadtere123:madhwanphadtere123@cluster0.1ceawxm.mongodb.net/?retryWrites=true&w=majority";
+
+const mongoURI = process.env.URL;
 
 /**
  * Establishes the connection to the MongoDB database

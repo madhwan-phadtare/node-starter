@@ -1,22 +1,16 @@
 const express = require("express");
+const dotenv = require("dotenv").config();
 const { connectToDatabase } = require("./db/mongoDb");
-const { fetchReports, calculateFinalReports } = require("./controllers/reportController");
+const routes = require("./routes/routes");
 
 const app = express();
-const port = 3000;
+const port = process.env.port || 3001;
 
-// API endpoint to fetch reports for a specific user
-app.get("/report/:id", async (req, res) => {
-  const userId = req.params.id;
-  try {
-    const { projectReports, weeklyReports } = await fetchReports(userId);
-    const result = calculateFinalReports(projectReports, weeklyReports);
-    // console.log(JSON.stringify(result));
-    res.json(result);
-  } catch (error) {
-    res.status(500).json({ error: "Error fetching project reports" });
-  }
-});
+// Parse JSON request bodies
+app.use(express.json());
+
+// Routes
+app.use("/", routes);
 
 // Connect to the database and start the server
 connectToDatabase()
