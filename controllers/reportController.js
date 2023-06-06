@@ -1,8 +1,11 @@
-
 const ProjectReport = require("../models/ProjectReport");
 const WeeklyReports = require("../models/WeeklyReport");
 
-// Fetch project reports and weekly reports based on emailId
+/**
+ * Fetch project reports and weekly reports based on emailId
+ * @param {string} emailId - Mentee's email ID
+ * @returns {Object} - Object containing projectReports and weeklyReports
+ */
 async function fetchReports(emailId) {
   try {
     const projectReports = await ProjectReport.find({ menteeEmailId: emailId });
@@ -14,7 +17,11 @@ async function fetchReports(emailId) {
   }
 }
 
-// Calculate aggregated reports for each week
+/**
+ * Calculate aggregated reports for each week
+ * @param {Array} weeklyReports - Array of weekly reports
+ * @returns {Array} - Array of calculated weekly reports
+ */
 function calculateWeeklyReports(weeklyReports) {
   let weekWiseReports = {};
 
@@ -71,23 +78,71 @@ function calculateWeeklyReports(weeklyReports) {
   return actualReports;
 }
 
-// Calculate final reports
-function calculateFinalReports(weeklyReports) {
+/**
+ * Calculate average score for project reports
+ * @param {Array} projectReports - Array of project reports
+ * @returns {number} - Average score
+ */
+function calculateMockProject(projectReports) {
+  let totalScore = 0;
+  const numReports = projectReports.length;
+
+  for (let i = 0; i < numReports; i++) {
+    const report = projectReports[i];
+    totalScore +=
+      report.useCaseUnderstandingInterpretation +
+      report.logicApplied +
+      report.techLearnedVsImplemented +
+      report.solutionExplanationClarity;
+  }
+
+  const averageScore = totalScore / (numReports * 4);
+  return averageScore;
+}
+
+/**
+ * Get score description based on the score value
+ * @param {number} score - Score value
+ * @returns {string} - Score description
+ */
+function getScoreDescription(score) {
+  if (score >= 0 && score <= 2.5) {
+    return "Below Threshold";
+  } else if (score > 2.5 && score <= 3.0) {
+    return "Threshold";
+  } else if (score > 3.0 && score <= 3.25) {
+    return "Mostly Target";
+  } else if (score > 3.25 && score <= 3.5) {
+    return "Always Target";
+  } else if (score > 3.5 && score <= 3.8) {
+    return "Mostly Outstanding";
+  } else if (score > 3.8 && score <= 4.0) {
+    return "Always Outstanding";
+  } else {
+    return "Invalid score";
+  }
+}
+
+/**
+ * Calculate final reports
+ * @param {Array} projectReports - Array of project reports
+ * @param {Array} weeklyReports - Array of weekly reports
+ * @returns {Object} - Object containing final reports
+ */
+function calculateFinalReports(projectReports, weeklyReports) {
   const finalReports = {
     status: "success",
     message: "success",
   };
 
-  console.log(weeklyReports[0]);
-
   const data = {
     name: weeklyReports[0].menteeName,
-    grade: "Always Target",
+    grade: "",
     emailId: weeklyReports[0].menteeEmailId,
     attendanceParticipation: 0,
     communicationSkill: 0,
     timeManagement: 0,
-    mockProject: 0,
+    mockProject: calculateMockProject(projectReports),
     averageScore: 0,
     assessment: 0,
     weeks: calculateWeeklyReports(weeklyReports),
@@ -97,11 +152,23 @@ function calculateFinalReports(weeklyReports) {
     data.communicationSkill += report.communicationSkill;
     data.attendanceParticipation += report.attendanceParticipation;
     data.timeManagement += report.timeManagement;
+    data.assessment += report.assignment;
   });
 
   data.communicationSkill /= data.weeks.length;
   data.attendanceParticipation /= data.weeks.length;
   data.timeManagement /= data.weeks.length;
+  data.assessment /= data.weeks.length * 25;
+
+  data.averageScore =
+    data.communicationSkill +
+    data.attendanceParticipation +
+    data.timeManagement +
+    data.assessment +
+    data.timeManagement;
+  data.averageScore /= 5;
+
+  data.grade = getScoreDescription(data.averageScore);
 
   finalReports.data = data;
   return finalReports;

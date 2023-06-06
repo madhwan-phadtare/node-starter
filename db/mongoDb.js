@@ -3,7 +3,9 @@ const mongoose = require("mongoose");
 const mongoURI =
   "mongodb+srv://madhwanphadtere123:madhwanphadtere123@cluster0.1ceawxm.mongodb.net/?retryWrites=true&w=majority";
 
-// Establish the connection
+/**
+ * Establishes the connection to the MongoDB database
+ */
 const connectToDatabase = async () => {
   try {
     await mongoose.connect(mongoURI, {
@@ -20,4 +22,3 @@ const connectToDatabase = async () => {
 module.exports = {
   connectToDatabase,
 };
-

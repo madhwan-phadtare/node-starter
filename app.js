@@ -10,7 +10,7 @@ app.get("/report/:id", async (req, res) => {
   const userId = req.params.id;
   try {
     const { projectReports, weeklyReports } = await fetchReports(userId);
-    const result = calculateFinalReports(weeklyReports);
+    const result = calculateFinalReports(projectReports, weeklyReports);
     // console.log(JSON.stringify(result));
     res.json(result);
   } catch (error) {
@@ -18,6 +18,7 @@ app.get("/report/:id", async (req, res) => {
   }
 });
 
+// Connect to the database and start the server
 connectToDatabase()
   .then(() => {
     app.listen(port, () => {
