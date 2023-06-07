@@ -36,7 +36,12 @@ router.get("/report/:id", async (req, res) => {
   try {
     const { projectReports, weeklyReports } = await fetchReports(userId);
     const result = calculateFinalReports(projectReports, weeklyReports);
-    res.json(result);
+
+    if (result.data == null) {
+      res.status(400).json(result);
+    } else {
+      res.status(200).json(result);
+    }
   } catch (error) {
     res.status(500).json({ error: "Error fetching project reports" });
   }

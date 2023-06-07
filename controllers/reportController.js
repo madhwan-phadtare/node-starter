@@ -132,9 +132,17 @@ function getScoreDescription(score) {
  * @returns {Object} - Object containing final reports
  */
 function calculateFinalReports(projectReports, weeklyReports) {
+  if (projectReports.length === 0 && weeklyReports.length === 0) {
+    return {
+      success: false,
+      message: "Bad request. Invalid email ID provided or intern not found.",
+      data: null,
+    };
+  }
+
   const finalReports = {
-    status: "success",
-    message: "success",
+    success: true,
+    message: "Success. Returns the Performance Report Management data.",
   };
 
   const data = {
@@ -144,7 +152,7 @@ function calculateFinalReports(projectReports, weeklyReports) {
     attendanceParticipation: 0,
     communicationSkill: 0,
     timeManagement: 0,
-    mockProject: Math.round(calculateMockProject(projectReports)*100)/100,
+    mockProject: Math.round(calculateMockProject(projectReports) * 100) / 100,
     averageScore: 0,
     assessment: 0,
     weeks: calculateWeeklyReports(weeklyReports),
@@ -162,10 +170,10 @@ function calculateFinalReports(projectReports, weeklyReports) {
   data.timeManagement /= data.weeks.length;
   data.assessment /= data.weeks.length * 25;
 
-  data.communicationSkill = Math.round(data.communicationSkill * 100)/100;
-  data.attendanceParticipation = Math.round(data.attendanceParticipation * 100)/100;
-  data.timeManagement = Math.round(data.timeManagement * 100)/100;
-  data.assessment = Math.round(data.assessment * 100)/100;
+  data.communicationSkill = Math.round(data.communicationSkill * 100) / 100;
+  data.attendanceParticipation = Math.round(data.attendanceParticipation * 100) / 100;
+  data.timeManagement = Math.round(data.timeManagement * 100) / 100;
+  data.assessment = Math.round(data.assessment * 100) / 100;
 
   data.averageScore =
     data.communicationSkill +
@@ -175,14 +183,14 @@ function calculateFinalReports(projectReports, weeklyReports) {
     data.timeManagement;
   data.averageScore /= 5;
 
-  data.averageScore = Math.round(data.averageScore*100)/100;
+  data.averageScore = Math.round(data.averageScore * 100) / 100;
 
   data.grade = getScoreDescription(data.averageScore);
 
   finalReports.data = data;
-;
 
   return finalReports;
 }
+
 
 module.exports = { fetchReports, calculateFinalReports };
