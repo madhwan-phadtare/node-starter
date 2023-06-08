@@ -4,9 +4,12 @@ const { connectToDatabase } = require("./db/mongoDb");
 const routes = require("./routes/routes");
 const swaggerUi = require("swagger-ui-express");
 const swaggerJsdoc = require("swagger-jsdoc");
+const cors = require('cors');
+
 
 const app = express();
 const port = process.env.port || 3001;
+
 
 // Swagger configuration options
 const swaggerOptions = {
@@ -28,6 +31,9 @@ app.use(express.json());
 
 // Routes
 app.use("/", routes);
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Serve Swagger API documentation
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocs));

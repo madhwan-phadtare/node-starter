@@ -180,7 +180,7 @@ function calculateFinalReports(projectReports, weeklyReports) {
     data.attendanceParticipation +
     data.timeManagement +
     data.assessment +
-    data.timeManagement;
+    data.mockProject;
   data.averageScore /= 5;
 
   data.averageScore = Math.round(data.averageScore * 100) / 100;
