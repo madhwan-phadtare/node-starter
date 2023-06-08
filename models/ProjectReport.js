@@ -1,7 +1,4 @@
 const mongoose = require("mongoose");
-const { connectToDatabase } = require("../db/mongoDb");
-
-connectToDatabase();
 
 const projectReportSchema = new mongoose.Schema({
   menteeName: {
